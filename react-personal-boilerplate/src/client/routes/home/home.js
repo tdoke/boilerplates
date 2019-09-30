@@ -9,7 +9,7 @@ class Home extends Component {
   render() {
     return (<div>
       <Helmet><title>Home</title></Helmet>
-      <h2>This is home component!</h2>{process.env.endpoint}
+      <h2>This is home component</h2>{process.env.endpoint}
     </div>);
   }
 }
