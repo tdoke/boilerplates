@@ -7,3 +7,8 @@ npm i react-router-dom react-router-config --save
 to copy env files
 cp src dest
 cp env.local .env
+
+1] webpack-dev-server --env dev
+   gives webpack.config.dev to WDS.
+   WDS internally runs webpack using given config and serves the output. Output is in memory.
+2]    
